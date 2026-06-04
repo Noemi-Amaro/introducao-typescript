@@ -1,0 +1,29 @@
+Assim que o projeto for criado, alguns comandos precisam rodar no terminal:
+ 
+npm init -y para criar o package.json
+ 
+npm install typescript --save-dev
+Instala o TypeScript no projeto e salva como dependência de desenvolvimento.
+ 
+npx tsc --version
+Verifica se o TypeScript está funcionando
+O "npx" Executa pacotes instalados no projeto.
+O "tsc" É o TypeScript Compiler.
+ 
+npx tsc --init
+Isso gera o arquivo tsconfig.json
+Arquivo de configuração do TypeScript.
+Ele define:
+regras de compilação
+versão do JavaScript gerado
+modo strict
+organização do projeto
+ 
+npx tsc é o comando para compilação
+node dist/app.js para rodar o arquivo compilado JS
+ 
+Primeiro esses comandos precisam acontecer no terminal, depois pode fazer a criação dos outros arquivos:
+app.ts e usuario.ts
+ 
+ 
+Ajustar no tsconfig.json completo
